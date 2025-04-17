@@ -1,13 +1,15 @@
-17-04-25
-What you built today
+> Date: 17-04-25 
+> Commit_no.: 1st
+> What you built today
+    Add initial implementation of Library Management Systen with user book request and assignment features
+> What issue you faced
+    Issue faced while checking array elements like when we want the requested book to be added to requestedbook array from books array 
+    I am just finding the index and when I found that, I just added the value of the requested to that array
+    but first I needed to check whether book I am requesting exists in books array for that checking element
+    I was using == operator instead I need to use .equals() because ...
+> What you learned
 
-What issue you faced
+> One new Java concept you found interesting
+    .equals to compare string object
 
-What you learned
-
-One new Java concept you found interesting
-
-0. simplifying the logic
-1. .equals to compare string object
-
-
+===========================================================================================================================================
