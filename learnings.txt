@@ -1,0 +1,13 @@
+17-04-25
+What you built today
+
+What issue you faced
+
+What you learned
+
+One new Java concept you found interesting
+
+0. simplifying the logic
+1. .equals to compare string object
+
+
