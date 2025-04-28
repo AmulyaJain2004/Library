@@ -51,7 +51,7 @@ class libmansys {
         for (int i = 0; i < obj.books.length; i++){
             System.out.println(obj.books[i]);
         }
-        System.out.println("Do you want to read book or request a book?");
+        System.out.println("Do you want to read book or request a book ?");
         System.out.println("Enter 1 for reading book and 2 for requesting a book");
         int choice = sc.nextInt();
         switch(choice){

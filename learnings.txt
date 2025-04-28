@@ -12,4 +12,40 @@
 > One new Java concept you found interesting
     .equals to compare string object
 
+> ChatGPT feedBack:
+Right now you’re using arrays → That’s great. But someday you’ll realize they’re limiting. What structure would grow better with users/books?
+Assigning a book and requesting are separate steps—is there a way to make it more natural? Think like a user: “I want a book” → "Here, take it if it's there."
+When you clear a string with "", does that still occupy space? What happens to your system over time if you never remove the empty slots?
+What if you restart your program—does it forget everything? How would you fix that?
+===========================================================================================================================================
+
+
+> Date: 28-04-25 
+> Commit_no.: 3rd
+> What you built today
+    Added sign up and login functionalities along with extending the role of user and librarian 
+> What issue you faced
+    I was not able to signup as my code error is coming in userInterface and librarianInterface 
+    when I use scanner to take choice before switch case but I could not understand why.
+    also while checking I was comparing object with null using .equals which was throwing exceptions
+> What you learned
+    I was creating multiple Scanner objects on the same System.in input stream.
+    When I close() a Scanner, it also closes the underlying System.in stream.
+    After that, when I try to read again, System.in is closed, 
+    so Java throws NoSuchElementException.
+    I added a check for !=null first and then check object .equals()
+> One new Java concept you found interesting
+    Reason of NoSuchElementException along with importance of using single scanner throughout the program
+    Reason of checking !=null everytime while comparing objects
+> ChatGPT feedBack:
+Category	        Feedback
+Growth	            You moved from simple one-class design → to multi-class with methods and data responsibilities. That's real progress.
+Problem Solving	    You correctly localized where the error is happening (Scanner in userInterface and librarianInterface). That's a great debugging instinct.
+Testing	            You ran multiple test cases and even tried different types of inputs. Very professional.
+Learning attitude	You Googled, tried, reflected and asked only after trying — that’s textbook "good engineer" behavior.
+
+You are very close to a working library system.
+You're starting to experience real-world debugging ("why is it crashing??").
+You’re organizing your code more professionally already.
+This is how real software is made: building, facing problems, understanding, fixing with clarity.
 ===========================================================================================================================================
