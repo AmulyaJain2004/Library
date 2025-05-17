@@ -27,7 +27,7 @@ What if you restart your program—does it forget everything? How would you fix 
 > What issue you faced
     I was not able to signup as my code error is coming in userInterface and librarianInterface 
     when I use scanner to take choice before switch case but I could not understand why.
-    also while checking I was comparing object with null using .equals which was throwing exceptions
+    also while checking I was comparing object with null using .equals which was throwing exceptions like NoSuchElementException
 > What you learned
     I was creating multiple Scanner objects on the same System.in input stream.
     When I close() a Scanner, it also closes the underlying System.in stream.
