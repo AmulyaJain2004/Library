@@ -184,7 +184,7 @@ class Library {
     }
 }
 
-class libraryManage_2 {
+class librarymansys_2 {
 
     public static User signUp(Scanner sc){
         System.out.println("Welcome to the Library Management System!");

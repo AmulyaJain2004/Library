@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class libmansys {
+class libmansys_1 {
     String books[] = {"b1", "b2", "b3", "b4", "b5"};
     String requested_books[] = new String[5];
     String user_books[] = new String[5];
@@ -44,7 +44,7 @@ class libmansys {
     }
 
     public static void main(String[] args){
-        libmansys obj = new libmansys();
+        libmansys_1 obj = new libmansys_1();
         System.out.println("Welcome to Library Management System");
         Scanner sc = new Scanner(System.in);
         System.out.println("Here are the available books: ");
